@@ -1,0 +1,212 @@
+/* Reset */
+* {
+  margin:0;
+  padding:0,
+}
+/* Fonts
+    font-family: 'Archivo Black', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+*/
+
+/* Style */
+body {
+  background-image: url(assets/background_texture.jpg);
+}
+.wrapper {
+  height:100vh;
+  width:100vw;
+}
+
+.header {
+  height:80vh;
+  width:100vw;
+  background-image: url(assets/home5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  height:80px;
+  width:100vw;
+  background-color:rgb(255,255,255,1);
+  position:fixed;
+  opacity:0.8;
+  text-align:center;
+  padding-top:0.8rem;
+  padding-bottom:0.3rem;
+  font-size: 3rem;
+  z-index:3;
+}
+
+.social {
+  color:rgb(194,8,2);
+}
+
+.social:hover {
+  transition:color ease-in-out 0.4s;
+  color:rgb(244,127,2);
+  font-size: 5rem;
+}
+
+a{
+  text-decoration:none;
+  padding:5vw;
+}
+.main_title {
+  text-align:center;
+  padding-top:35vh;
+  font-size: 6rem;
+  font-family: 'Raleway', sans-serif;
+  opacity: 0.8;
+  text-shadow: 2px 2px white;
+}
+.content {
+  width:100vw;
+  height:90vh;
+}
+
+.plate1 {
+  margin-top:5vh;
+  background-image:url(assets/aikido.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:inherit;
+  float:left;
+}
+.plate2 {
+  margin-top:5vh;
+  background-image:url(assets/osensei-stretching007.jpg);
+  background-size: cover;
+  background-attachment:inherit;
+  float:right;
+}
+.plate3 {
+  background-image:url(assets/Dojobackground.jpg);
+  background-size: cover;
+  background-attachment:inherit;
+  float:left;
+}
+
+.plate4 {
+  background-image:url(assets/throw.jpg);
+  background-size:cover;
+  background-attachment:inherit;
+  float:right;
+}
+
+.plate1,.plate2,.plate3,.plate4 {
+  text-align:center;
+  width:50vw;
+  height:40vh;
+}
+
+.button {
+  color:rgb(194,8,2);
+  font-weight: 700;
+  display:block;
+  margin:auto;
+  font-family: 'Raleway', sans-serif;
+}
+.button:hover {
+  transition:color ease-in-out 0.4s;
+  color:rgb(244,127,2,0.8);
+  text-shadow: 2px 2px white;
+  padding-top:1rem;
+}
+footer {
+  height:40vh;
+  width:100vw;
+  background-color:black;
+}
+
+.contact {
+  height:40vh;
+  width:100vw;
+  text-align: center;
+  padding-top:2.5rem;
+}
+
+.contact_text,.contact_text2 {
+  color:rgb(255,255,255,1);
+  font-family: 'Raleway', sans-serif;
+  padding-bottom:0.5rem;
+  opacity: 0.8;
+}
+
+.contact_text {
+  font-size:3rem;
+}
+
+.contact_text2 {
+  font-size:1.5rem;
+}
+
+/* Media */
+
+@media (max-width:550px) {
+  .main_title {
+    font-size:5rem;
+    padding-top:3.2rem;
+  }
+  .header {
+    height:30vh;
+  }
+  .nav {
+    height:5vh;
+    padding-top:0.1vh;
+  }
+  .nav:hover {
+    height:10vh;
+  }
+  .button {
+    font-size:2rem;
+  }
+  .button:hover {
+    font-size: 3rem;
+  }
+  .social {
+    padding:1vw;
+    margin-left:7vw;
+  }
+  .plate1,.plate2,.plate3,.plate4 {
+    float:none;
+    width:100vw;
+    height:35vh;
+    margin-top:0;
+  }
+  .content {
+    height:140vh;
+    width:100vw;
+  }
+}
+@media (min-width:550px) {
+  .content {
+    width:80vw;
+    margin-left:10vw;
+  }
+  .plate1,.plate2,.plate3,.plate4 {
+    max-width:40vw;
+    box-shadow: 10px 10px 10px;
+  }
+  .main_title {
+    font-size:11rem;
+    padding-top:22vh;
+  }
+  .button {
+    font-size:2rem;
+  }
+  .button:hover {
+    font-size:2.5rem;
+  }
+}
+@media (min-width:1250px) {
+  .button {
+    font-size:4rem;
+  }
+  .button:hover {
+    font-size:4.5rem;
+  }
+}
