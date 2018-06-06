@@ -6,5 +6,9 @@ This is my first project. I create a website for my aikido dojo for practicing w
 
   - HTML5
   - CSS3
+# Language
+  - Hungarian
   
 # Live version
+
+https://gpeter1987.github.io/Chuushin-Dojo/
