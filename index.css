@@ -53,6 +53,11 @@ body {
 a{
   text-decoration:none;
   padding:5vw;
+  color:rgb(0,0,91,0.8);
+}
+a:hover {
+  transition:color ease-in-out 0.4s;
+  color:rgb(244,127,2);
 }
 .main_title {
   text-align:center;
@@ -119,7 +124,6 @@ a{
 .footer {
   width:100vw;
   background-color:black;
-  height: auto;
 }
 
 .contact {
@@ -179,6 +183,12 @@ a{
   color:white;
 }
 
+.masterpic {
+  max-width: 200px;
+  float:left;
+  margin:2vh;
+}
+
 /* Media */
 
 @media (max-width:550px) {
@@ -217,9 +227,12 @@ a{
     width:100vw;
   }
   .footer {
-    position:absolute;
-    bottom:-150vh;
-    height:auto;
+    position:fixed;
+    bottom:0;
+    height:10vh;
+  }
+  .footer:hover {
+    height:45vh;
   }
   .contact_text {
     padding-top:0;
