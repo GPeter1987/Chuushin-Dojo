@@ -124,6 +124,7 @@ a:hover {
 .footer {
   width:100vw;
   background-color:black;
+  
 }
 
 .contact {
@@ -264,6 +265,9 @@ a:hover {
   }
   .button:hover {
     font-size:2.5rem;
+  }
+  .contact_text {
+    padding-top:0;
   }
 }
 @media (min-width:1250px) {
