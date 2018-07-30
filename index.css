@@ -78,26 +78,33 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment:inherit;
+  background-size:100% 100%;
   float:left;
 }
 .plate2 {
   margin-top:5vh;
   background-image:url(assets/osensei-stretching007.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment:inherit;
+  background-size:100% 100%;
   float:right;
 }
 .plate3 {
   background-image:url(assets/Dojobackground.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment:inherit;
+  background-size:100% 100%;
   float:left;
 }
 
 .plate4 {
   background-image:url(assets/throw.jpg);
   background-size:cover;
+  background-repeat: no-repeat;
   background-attachment:inherit;
+  background-size:100% 100%;
   float:right;
 }
 
@@ -160,6 +167,7 @@ a:hover {
   font-size: 2.5rem;
   background-color:rgb(255,255,255,0.9);
   padding:1rem;
+  padding-bottom: 75px;
 }
 .back_button {
   text-align: center;
@@ -167,8 +175,9 @@ a:hover {
   background-color: rgb(255,255,255,0.9);
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  padding:1rem;
+  padding:1rem; 
   font-weight: 600;
+ 
 }
 .back_button:hover {
   background-color: black;
@@ -185,7 +194,7 @@ a:hover {
 .masterpic {
   max-width: 200px;
   float:left;
-  margin:2vh;
+  margin:10px;
 }
 
 /* Media */
@@ -258,6 +267,7 @@ a:hover {
   .button {
     font-size:45px;
     margin-top: 100px;
+    padding-top:5vh;
   }
   .contact_text {
     padding-top:0;
