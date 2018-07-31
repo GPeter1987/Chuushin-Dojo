@@ -28,7 +28,7 @@ body {
 }
 
 .nav {
-  height:80px;
+  height:70px;
   width:100vw;
   background-color:rgb(255,255,255,1);
   position:fixed;
@@ -110,8 +110,9 @@ a:hover {
 
 .plate1,.plate2,.plate3,.plate4 {
   text-align:center;
-  width:50vw;
+  width:39.5vw;
   height:40vh;
+  border:2px solid white;
 }
 
 .button {
